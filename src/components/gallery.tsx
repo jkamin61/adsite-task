@@ -24,7 +24,7 @@ const Gallery = () => {
             }]
     };
 
-    const cars = {
+    const cars: { [key: string]: string[] } = {
         osobowe: [car1, car2, car3],
         dostawcze: [car1, car2]
     };
