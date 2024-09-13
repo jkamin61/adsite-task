@@ -8,20 +8,20 @@ import vector from "../assets/Subtract.png";
 const Home = () => {
     return (
         <>
-            <div className="container">
+            <div className="w-full">
                 <div className="relative z-50">
                     <Header/>
                     <Hero/>
                 </div>
-                <div className="absolute w-56 right-0 top-12">
+                <div className="absolute w-56 right-0 top-12 lg:w-80">
                     <img src={vector} alt="cars background"/>
                 </div>
             </div>
-            <main className="container mt-24">
+            <main className="w-full">
                 <Gallery/>
                 <About/>
             </main>
-            <div className="container">
+            <div className="w-full">
                 <Footer/>
             </div>
         </>
